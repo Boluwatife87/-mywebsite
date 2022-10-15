@@ -1,0 +1,48 @@
+body{
+  background-color: #211f46;
+  
+}
+img{
+  padding-right: 90px;
+  
+}
+h3{
+  padding-left: 40px;
+  color: aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+  padding-right: 50px;
+
+}
+h1{
+  padding: left 50px; 
+  padding-left: 50px;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif  ;
+}
+/* adding background color to the topnavv */
+.topnav{
+  background-color: rgb(235, 239, 253);
+  overflow: hidden;
+  height: 60px;
+}
+/* styling the link inside the navigation bar */
+.topnav a{
+  float:left;
+  color:#4b0909;
+  text-align: center;
+  padding: 14px 46px ;
+  text-decoration: none;
+  font-size: 27px;
+}
+/* changing the color of link on hover*/
+.topnav a:hover{
+  background-color: rgb(6, 6, 148);
+  color: aqua;
+}
+/* adding a color to active/current link */
+.topnav a.active{
+  background-color: blueviolet;
+  color: white;
+}
